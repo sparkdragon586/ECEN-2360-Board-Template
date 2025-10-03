@@ -41,3 +41,11 @@ I have also bundled a number of helper shell scripts. The above can be accomplis
 ```bash
 new-project.sh {whatever-name-you-want}
 ```
+
+# TODO:
+- [ ] Neovim documentation and how to.
+- [ ] More helper scripts (with nvim integration)
+    - [ ] build directly from nvim
+    - [ ] upload directly from nvim
+    - [ ] auto git commits on upload
+- [ ] nvim debugging
