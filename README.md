@@ -10,7 +10,7 @@ This is accomplished by the following.
 
 # Usage
 > [!NOTE]
-> In order to use this repo there are 2-ish requirements. First, you need to have git setup (obvious). Second, you need to have Nix. Third, you need to have udev setup propely for dfu-util.
+> In order to use this repo there are 2-ish requirements. First, you need to have git setup (obvious). Second, you need to have Nix. Third, you need to have udev setup properly for dfu-util.
 
 The main crux of this repo is that it's built around a Nix flake. This allows you to install most of the needed packages in a temporary dev-shell with one command.
 Once you have the git-repo cloned and Nix setup go to any point in the repo and run the following command.
