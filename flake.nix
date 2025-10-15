@@ -21,11 +21,13 @@
               pkgs.platformio # used for toolchain
               pkgs.python3 # used for build script
               pkgs.dfu-util
+              pkgs.glibc_multi
               nvim # IDE
             ];
             shellHook = ''
               export PROJECT_ROOT=$(git rev-parse --show-toplevel);
               export PLATFORMIO_CORE_DIR=$PROJECT_ROOT/.platformio;
+              export COMPILATIONDB_INCLUDE_TOOLCHAIN=True;
               export PATH=$PATH:$PROJECT_ROOT/tools
             '';
           };

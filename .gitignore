@@ -1,5 +1,6 @@
 .platformio/
 .direnv/
+.cache/
 */.pio/
 */.cache/
 */compile_commands.json
